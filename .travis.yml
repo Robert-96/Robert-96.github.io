@@ -30,8 +30,8 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  keep-history: true
   on:
-    branch: master
+    branch: develop
+  target_branch: master
   local-dir: dist
   verbose: true
